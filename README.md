@@ -1,7 +1,8 @@
 # AI 同声传译助手
 
 实时将英语（及其他外语）语音/音频内容翻译为中文，以字幕或语音形式呈现，并支持基于上下文的自动纠错修正。
-https://www.bilibili.com/video/BV19CEt6HEzc/?spm_id_from=333.1387.upload.video_card.click
+
+
 ## 效果预览
 
 ### 视频演示链接
