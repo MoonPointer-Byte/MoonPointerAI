@@ -1,0 +1,29 @@
+# Backend
+backend/target/
+backend/.mvn/
+
+# Web
+web/node_modules/
+web/dist/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+
+# IDE
+.idea/
+.vscode/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.local
+backend/application-local.yml

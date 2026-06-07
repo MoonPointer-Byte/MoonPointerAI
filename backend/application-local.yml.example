@@ -1,0 +1,20 @@
+# 复制此文件为 application-local.yml 并填入你的 DeepSeek 配置
+# copy application-local.yml.example application-local.yml
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/englishai?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: root
+    password: 你的MySQL密码
+
+translator:
+  llm:
+    provider: deepseek
+    api-key: sk-你的DeepSeek_API_Key
+    api-url: https://api.deepseek.com/chat/completions
+    model: deepseek-chat
+  stt:
+    # 耳机模式：国内推荐硅基流动 https://cloud.siliconflow.cn 注册并创建 API Key
+    api-key: sk-你的SiliconFlow_API_Key
+    api-url: https://api.siliconflow.cn/v1/audio/transcriptions
+    model: FunAudioLLM/SenseVoiceSmall

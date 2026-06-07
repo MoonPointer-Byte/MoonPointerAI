@@ -1,0 +1,25 @@
+{
+  "name": "MoonPointer",
+  "short_name": "MoonPointer",
+  "description": "实时字幕 · 同声传译 · 视频学习笔记",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#08080d",
+  "theme_color": "#08080d",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

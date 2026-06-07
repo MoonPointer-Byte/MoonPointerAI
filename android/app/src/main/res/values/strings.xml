@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoonPointer</string>
+    <string name="app_tagline">实时字幕 · 同声传译</string>
+    <string name="settings">设置</string>
+    <string name="api_server_url">后端 API 地址</string>
+    <string name="web_app_url">Web 前端地址</string>
+    <string name="web_load_hint">默认使用 App 内置界面。请确保后端在 8080 运行；开发模式可在设置中切换到 :3000。</string>
+    <string name="web_setup_hint">API 模拟器: http://10.0.2.2:8080，真机填电脑局域网 IP。Web 默认内置，无需 npm run dev。</string>
+</resources>
