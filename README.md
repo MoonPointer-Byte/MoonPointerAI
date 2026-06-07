@@ -2,6 +2,20 @@
 
 实时将英语（及其他外语）语音/音频内容翻译为中文，以字幕或语音形式呈现，并支持基于上下文的自动纠错修正。
 
+## 效果预览
+
+### Web 端
+
+![Web 同声传译界面](image/web.png)
+
+### 移动 Web / Android
+
+<p align="center">
+  <img src="image/moveweb.png" alt="移动 Web 端" width="320" />
+  &nbsp;&nbsp;
+  <img src="image/phone.png" alt="Android 端" width="280" />
+</p>
+
 ## 系统架构
 
 ```
